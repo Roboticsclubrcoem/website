@@ -529,9 +529,10 @@ b, strong {
 // SOCIAL LINKS
 .social-links {
 	.uil {
-		color: #f7f3f3;
+		color: #a8a8a8;
 		font-size: 20px;
-		display: block;
+		display: flex;
+  flex-direction: row-forward;
 		margin: 5px 0;
 		&:hover {
 			color: $main-color;
@@ -646,12 +647,13 @@ b, strong {
 	}
 
 	.contact-info {
-		flex-direction: column;
+		flex-direction: row;
 	}
 
 	.social-links {
 		li {
-			display: inline-block;
+			display: flex;
+  flex-direction: row-forward;
 			vertical-align: top;
 		}
 	}
