@@ -515,6 +515,15 @@ b, strong {
 	}
 }
 
+.icon-bar{
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: black;
+	font-size: 50px;
+  }
+
 .contact-info {
 	background: $button-color;
 	border-radius: 0 0 3px 3px;
