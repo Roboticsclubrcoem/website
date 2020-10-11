@@ -1,0 +1,180 @@
+<html>
+  <body>
+    <div class="container">
+      <div class="header">
+        <button onclick="goBack()" class="button1" style="font-size: 40px">
+          <i class="fa fa-arrow-left"></i>
+        </button>
+        <ul class="navbar-nav ml-lg-auto">
+          <div class="ml-lg-4">
+            <div
+              class="color-mode d-lg-flex justify-content-center align-items-center">
+              <i class="color-mode-icon"></i>
+              Color mode
+            </div>
+          </div>
+        </ul>
+      </div>
+      <h3 style="text-align: center">Our Team</h3>
+      <br />
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img
+              src="D:\Robotics club\website\website\images\club_members\Pranav.jpg"
+              style="width: 100%"
+            />
+            <div class="container">
+              <h2>Pranav</h2>
+              <p class="title">President</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img
+              src="D:\Robotics club\website\website\images\club_members\keshubh.jpeg"
+              style="width: 100%"
+            />
+            <div class="container">
+              <h2>Keshubh</h2>
+              <p class="title">Vice President</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img
+              src="D:\Robotics club\website\website\images\club_members\Fariha.jpeg"
+              style="width: 100%"
+            />
+            <div class="container">
+              <h2>Fariha</h2>
+              <p class="title">Designer</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img
+              src="D:\Robotics club\website\website\images\club_members\Mayank.jpg"
+              style="width: 100%"
+            />
+            <div class="container">
+              <h2>Mayank</h2>
+              <p class="title">Water Boy</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img
+              src="D:\Robotics club\website\website\images\club_members\Ravish.jpeg"
+              style="width: 100%"
+            />
+            <div class="container">
+              <h2>Ravish</h2>
+              <p class="title">Member</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/unicons.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  </body>
+</html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    @media screen and (max-width: 6px) {
+      .column {
+        width: 50%;
+        display: block;
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button1 {
+      border: none;
+      display: inline-block;
+      padding: 10px;
+      color: black;
+      background-color: white;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      align-self: center;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
