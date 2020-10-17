@@ -1,12 +1,13 @@
 (function ($) {
 
   "use strict";
-
+  localStorage.setItem("mode","light"); 
     // COLOR MODE
     $('.color-mode').click(function(){
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
-    })
+        $('.container1').toggleClass('dark-mode')
+    });
 
     // HEADER
     $(".navbar").headroom();
